@@ -1,6 +1,6 @@
 pipeline {
 	//agent any
-	agent {docker {image 'mave:3.6.3'} }
+	agent { docker { image 'mave:3.9.4'} }
 	stages {
 		stage('Build') {
 			steps {
