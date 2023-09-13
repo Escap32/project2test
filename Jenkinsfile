@@ -6,19 +6,18 @@ pipeline {
 				echo "Build"
 			}
 		}
-	}
                stage('Test') {
                         steps {
                                 echo "Build"
                                 echo "Test"
                         }
                 }
-        }
                stage('Integration Test') {
                         steps {
                                 echo "Build"
                                 echo "Test"
                                 echo "Integration Test"
-                  }
-         }
+			}
+		}
+	}
 }
