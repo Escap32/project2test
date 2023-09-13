@@ -27,7 +27,7 @@ pipeline {
 				echo "I'm awesome. I run Always"
 		}
 			success {
-				echo "I run when you are successful"
+				echo "I run when you are successful and for the updated version of my file"
 		}
 			failure {
 				echo "I run when you fail" 
